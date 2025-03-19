@@ -231,7 +231,8 @@ the CA.  Without the imported configuration, the service will fail to start.
   "ServiceSettings": {
     "ViewIdleMinutes": 1,
     "FullScanPeriodHours": 1,
-    "PartialScanPeriodMinutes": 1
+    "PartialScanPeriodMinutes": 1,
+    "CertificatePruningConfiguration": "Disabled"
   }
 ```
 
